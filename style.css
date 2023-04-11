@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+.head_container{
+    background-color: var(--purple300);
+    position: sticky;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+nav {
+    /* height: 60px; */
+    /* margin: 0 20px; */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    gap: 30px;
+}
+
+.navul li {
+    list-style: none;
+    color: white;
+    /* padding: 0 15px; */
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+.navul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s ease-out;
+}
+.navl p {
+    font-size: 40px;
+    font-weight: 100px;
+    padding-left: 40px;
+    color: white;
+}
+.hc_main {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url(hero_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-items: center;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+
+.hcm1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 50px;
+}
+
+.hcm2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 50px;
+}
+
+.hcm3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: 50px;
+}
+
+.main {
+    color: white;
+    background-color: var(--purple500);
+}
+
+.main1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main2 {
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.main3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main3 button {
+    background-color: rgb(203, 35, 29);
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.main3 button:hover {
+    background-color: red;
+    font-size: 16px;
+    border: 2px solid transparent;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+.main4{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+
+.ipip_con{
+    background-color: var(--purple500);
+    height: 300px;
+}
+.ipip {
+    text-align: center;
+}
+.mac_con{
+    margin-top: 400px;
+}
+.mac1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px;
+}
+.mac2{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 40px;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.mac3{
+    text-align: center;
+}
+.mac3 button{
+    background-color: #1b0058;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: 0px solid transparent;
+    transition: 0.5s;
+}
+.mac3 button:hover{
+    background-color: #270082;
+}
+.mac4{
+    text-align: center;
+    padding: 40px;
+}
+
+.party{
+    background-image: url(video.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.party1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 150px;
+}
+
+.party2{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding-top: 20px;
+    margin: 0 30px;
+}
+
+.gc{
+    display: flex;
+    margin-top: 80px;
+}
+
+.gc_img{
+    width: 40%;
+}
+.gc_img img{
+    padding-left: 25px;
+}
+.gc_con{
+    width: 60%;
+}
+.gc_c{
+    padding: 0 80px 0 30px;
+}
+.gc2{
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gc3{
+    margin-top: 30px;
+}
+.gc3 button{
+    color: white;
+    background-color: #270082;
+    border: 0px solid transparent;
+    padding: 10px;
+    font-weight: bold;
+}
+.option{
+    display: flex;
+    margin-top: 40px;
+}
+.opt1{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    background-color:#1b0058;
+    color: white;
+    width: 25%;
+}
+
+.opt1list{
+    padding-left: 10px;
+}
+
+.foot{
+    background-color: #270082;
+}
+.foot p{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
